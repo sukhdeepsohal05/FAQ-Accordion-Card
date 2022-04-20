@@ -150,6 +150,7 @@ body{
     }
 
     .card__img-woman {
+        background: url('images/illustration-woman-online-desktop.svg') center center/100% no-repeat;
         top: -25%;
         left: 12%;
         width: 15rem;
