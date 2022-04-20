@@ -125,9 +125,16 @@ body{
 }
 
 @media screen and (max-width: 426px){
+    body {
+        background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+        height: 100vh;
+        overflow: hidden;
+        display: block;
+    }
+
     .card__img-box {
-        top: 2.5rem;
-        left: 2.3rem;
+        top: -2.5rem;
+        left: 3.3rem;
         width: 6rem;
         height: 6rem;
     }
@@ -139,7 +146,7 @@ body{
         overflow: visible;
         align-items: center;
         justify-content: flex-start;
-        margin-top: 5rem;
+        margin: 8rem auto 1rem;
     }
 
     .card__img-shadow {
@@ -150,6 +157,7 @@ body{
     }
 
     .card__img-woman {
+        background: url('images/illustration-woman-online-desktop.svg') center center/100% no-repeat;
         top: -25%;
         left: 12%;
         width: 15rem;
@@ -178,9 +186,9 @@ body{
         font-size: 0.7rem;
     }
 
-    .attribution{
-        bottom: 2%;
-        font-size: 1rem;
-        padding: 0px 10px;
+    .attribution {
+        position: static;
+        font-size: 0.6rem;
+        padding: 5px 10px;
     }
 }
