@@ -179,9 +179,9 @@ body{
         font-size: 0.7rem;
     }
 
-    .attribution{
-        bottom: 2%;
-        font-size: 1rem;
+    .attribution {
+        bottom: calc(100vh - 98vh);
+        font-size: 0.6rem;
         padding: 0px 10px;
     }
 }
