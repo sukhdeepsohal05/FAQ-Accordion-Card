@@ -199,5 +199,6 @@ body {
     .attribution {
         font-size: 0.6rem;
         padding: 5px 10px;
+        bottom: 1vh;
     }
 }
